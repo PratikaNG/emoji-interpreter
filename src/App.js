@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "./styles.css";
 
 var emojiDictionary = {
+  "😑": "annoyance",
   "😊": "smiling",
   "😳": "disbelief",
   "😔": "sad",
   "🥡": "takeout box",
-  "❤️": "love",
-  "😑": "annoyance"
+  "❤️": "love"
 };
 var emojisWeKnow = Object.keys(emojiDictionary);
 export default function App() {
